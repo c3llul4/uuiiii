@@ -1,0 +1,151 @@
+html, body, header {
+    background-color: #EA4E60;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo-primario {
+    background-color: #EA4E60;
+}
+
+.btn-destaque {
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    box-shadow: 5px 5px 0px;
+    border: none;
+}
+
+.title {
+    border: 1px solid #000;
+    margin-right: -7px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+    }
+}
+
+.link-login {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 12px;
+    img {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+// Frases
+.title-frases {
+    color: #fff;
+    font-family: 'Lovers Quarrel', serif;
+    font-size: 48px;
+}
+
+.blur {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    top: 0;
+}
+
+.my-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    .refrao {
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-style: italic;
+        font-size: 14px;
+    }
+    p {
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .copy {
+        padding: 4px;
+        border: none;
+        background: #f4f4f4;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        box-shadow: 0px 8px 9px -8px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        img {
+            width: 21px;
+        }
+    }
+}
+
+.categoria-option {
+    padding: 6px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.input-login {
+    position: relative;
+    label {
+        position: absolute;
+        top: -14px;
+        left: 10px;
+        padding: 0 5px;
+        background-color: #fff;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    input {
+        padding: 15px 20px;
+        width: 100%;
+        border: 1px solid #000;
+        border-radius: 10px;
+    }
+}
+
+.btn-login {
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-add {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    background-color: #52F1AE;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    img {
+        width: 16px;
+    }
+}
